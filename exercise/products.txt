@@ -1,0 +1,9 @@
+db.products.insert([
+    {_id: 0, pname: "test1", price: 100, status: { published: false, revision: 1}},
+    {_id: 1, pname: "test2", price: 150, status: { published: false, revision: 1}},
+    {_id: 2, pname: "test3", price: 220.0, status: { published: false, revision: 1}},
+    {_id: 3, pname: "test4", price: 330.32, status: { published: true, revision: 3}},
+    {_id: 4, pname: "test5", price: 40, status: { published: true, revision: 1}},
+    {_id: 5, pname: "test6", price: 19.99, status: { published: true, revision: 1}},
+    {_id: 6, pname: "test7", price: 1.99, status: { published: true, revision: 1}}
+])

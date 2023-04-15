@@ -1,0 +1,5 @@
+db.users.insert([
+    {_id: 0, first_name: "fname1", last_name: "lname1", email: "fname1.@lname1.com", password: "franz", date_registered: "2023-04-15", phone_numbers: [ { _id: 0, phone_number: "06998805551" } ] },
+    {_id: 1, first_name: "fname2", last_name: "lname2", email: "fname2.@lname2.com", password: "frenz", date_registered: "2023-04-15", phone_numbers: [ { _id: 1, phone_number: "06998805551" } ] },
+    {_id: 2, first_name: "fname3", last_name: "lname3", email: "fname3.@lname3.com", password: "frunz", date_registered: "2023-04-15", phone_numbers: [ { _id: 2, phone_number: "06998805551" } ] }
+])
